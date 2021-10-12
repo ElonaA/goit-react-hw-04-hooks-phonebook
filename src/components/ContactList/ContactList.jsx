@@ -6,7 +6,7 @@ import { Inner, Title, Wrapper, Button, PersonBadge, TelephonePlus,  XCircle } f
 export const ContactList = ({ contacts, onDeleteButton }) => {
   
   const [filter, setFilter] = useState('');
-  console.log(contacts);
+  
   //Обновляем состояние переменной фильтр
   const handleFilter = filter => {
     setFilter(filter);
